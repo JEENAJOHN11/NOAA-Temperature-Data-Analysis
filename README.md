@@ -1,7 +1,7 @@
 # NOAA-Temperature-Data-Analysis
 ### Dataset Description:
 - `temperature.csv`: Contains daily temperature readings from weather stations.
-- `BinSize.csv`: Additional metadata related to binning data (details unclear, included for completeness).
+- `BinSize.csv`: Additional metadata related to binning data.
 
 ### Steps Performed:
 1. Processed temperature data, removed leap days, and extracted year and day-of-year.
@@ -10,7 +10,7 @@
 4. Visualized trends with a line graph and shaded region.
 5. Plotted 2015 temperature summary near Ann Arbor.
 6. Normalized temperature data using `sklearn.preprocessing.StandardScaler`.
-7. Loaded `BinSize.csv` to incorporate any additional relevant data (future work needed to integrate meaningfully).
+7. Loaded `BinSize.csv` to incorporate any additional relevant data.
 
 ### Libraries Used and Why:
 - `pandas`: Used for efficient data processing and analysis.
